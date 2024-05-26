@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+  color: #fff;
+}
+
+body,
+html {
+  font-size: calc(100vw / 100) !important;
+  /* background: #f8f8f8; */
+  /* background: rgba(29, 33, 38, 0.4); */
+  background: rgb(15, 18, 20);
+}
+
+/* .poppins-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+select {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+select::-webkit-scrollbar {
+  width: 0;
+}
+
+::placeholder,
+.MuiOutlinedInput-input::placeholder {
+  color: #707d89 !important;
+  opacity: 1 !important;
+}
+.MuiMenu-paper,
+.MuiDialog-paper {
+  background-color: rgb(18, 18, 18) !important;
+}
+.MuiPickersDay-root,.MuiDayCalendar-weekDayLabel,.MuiTypography-root,.MuiClockNumber-root {
+  color: #fff !important;
+}
